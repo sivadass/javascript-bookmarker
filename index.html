@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bookmarker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body onload="fetchBookmarks()">
+        <div class="container">
+            <form class="form-container" id="addBookmark">
+                <h2>Add Bookmark</h2>
+                <input type="text" id="siteName" name="siteName" placeholder="Name">
+                <input type="text" id="siteURL" name="siteURL" placeholder="URL">
+                <button type="submit">Save</button>
+            </form>
+            <div class="bookmarks-container">
+                <h2>Bookmarks</h2>
+                <ul class="bookmarks" id="bookmarkResults">
+                    <li class="bookmark">
+                        <a href="http://www.google.com" target="_blank">Google</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

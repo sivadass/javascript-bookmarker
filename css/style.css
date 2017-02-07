@@ -1,0 +1,88 @@
+/* line 1, ../scss/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+/* line 8, ../scss/style.scss */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* line 15, ../scss/style.scss */
+.form-container,
+.bookmarks-container {
+  max-width: 420px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+/* line 20, ../scss/style.scss */
+h2 {
+  margin-bottom: 16px;
+}
+
+/* line 23, ../scss/style.scss */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 36px;
+  padding: 0 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+/* line 32, ../scss/style.scss */
+input[type="text"]:focus {
+  border-color: #4099ff;
+  outline: none;
+}
+
+/* line 38, ../scss/style.scss */
+button {
+  background: #4099ff;
+  color: #ffffff;
+  border: none;
+  height: 36px;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 47, ../scss/style.scss */
+button:focus {
+  outline: none;
+}
+
+/* line 52, ../scss/style.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 61, ../scss/style.scss */
+a {
+  text-decoration: none;
+  color: #4099ff;
+  line-height: 16px;
+  font-size: 14px;
+}
+/* line 66, ../scss/style.scss */
+a:hover {
+  color: #0d7eff;
+}
+/* line 68, ../scss/style.scss */
+a:hover:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url("../img/external-link.png");
+  margin-left: 4px;
+}
